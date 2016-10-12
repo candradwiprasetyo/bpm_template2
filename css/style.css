@@ -1508,9 +1508,9 @@ html {
 
 body {
   font-family: "Hind", Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.5;
-  color: #000000;
+  color: #666;
   background-color: #000000;
 }
 
@@ -1609,7 +1609,8 @@ hr {
 /** 1.4  Type */
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: "Montserrat", cursive;
+  /*font-family: "Hind", Helvetica, Arial, sans-serif;*/
+  font-family: "Hind", Helvetica, Arial, sans-serif;
   font-weight: 700;
   line-height: 1.1;
   color: inherit;
@@ -10221,7 +10222,7 @@ html.lt-ie-10 .range > [class*="cell-lg-preffix-"] {
 }
 
 .font-accent {
-  font-family: "Montserrat", cursive;
+  font-family: "Hind", Helvetica, Arial, sans-serif;
 }
 
 h1,
@@ -11044,7 +11045,7 @@ mark, .mark {
   white-space: nowrap;
   text-transform: uppercase;
   letter-spacing: 0.06em;
-  font-family: "Montserrat", cursive;
+  font-family: "Hind", Helvetica, Arial, sans-serif;
   border-width: 2px;
   transition: .3s;
   backface-visibility: hidden;
@@ -22979,7 +22980,7 @@ a.thumbnail:hover {
 
 .thumbnail-classic-title {
   display: inline-block;
-  font-family: "Montserrat", cursive;
+  font-family: "Hind", Helvetica, Arial, sans-serif;
   font-size: 20px;
   font-weight: 700;
   color: #fff;
@@ -23848,7 +23849,7 @@ a.icon-rect.fa-behance:hover, a.icon-circle.fa-behance:hover, a.icon-outlined.fa
   position: relative;
   text-align: center;
   line-height: 1.2;
-  font-family: "Montserrat", cursive;
+  font-family: "Hind", Helvetica, Arial, sans-serif;
   letter-spacing: 0.04em;
 }
 
@@ -24788,7 +24789,7 @@ html .group-bottom > *, html .group-bottom > *:first-child {
   color: #fff;
   border-color: #3db7ef;
   margin: 0 5px;
-  font-family: "Montserrat", cursive;
+  font-family: "Hind", Helvetica, Arial, sans-serif;
 }
 
 .pagination > li:first-child a > .mdi,
@@ -29357,7 +29358,7 @@ fieldset[disabled] .box-offer.active .btn-primary {
 .table-custom th {
   background: #f9f9f9;
   letter-spacing: 0;
-  font-family: "Montserrat", cursive;
+  font-family: "Hind", Helvetica, Arial, sans-serif;
 }
 
 .table-custom tbody tr {
@@ -29973,7 +29974,7 @@ fieldset[disabled] .swiper-slide-caption .btn-default {
 }
 
 .rd-navbar-default.rd-navbar-fixed .rd-navbar-nav li a, .rd-navbar-sidebar-toggle.rd-navbar-fixed .rd-navbar-nav li a, .rd-navbar-transparent.rd-navbar-fixed .rd-navbar-nav li a, .rd-navbar-center.rd-navbar-fixed .rd-navbar-nav li a, .rd-navbar-minimal.rd-navbar-fixed .rd-navbar-nav li a, .rd-navbar-humburger-menu.rd-navbar-fixed .rd-navbar-nav li a, .rd-navbar-default.rd-navbar-static .rd-navbar-nav > li > a, .rd-navbar-transparent.rd-navbar-static .rd-navbar-nav > li > a, .rd-navbar-center.rd-navbar-static .rd-navbar-nav > li > a, .rd-navbar-minimal.rd-navbar-static .rd-navbar-nav > li > a, .rd-navbar-default.rd-navbar-static .rd-navbar-dropdown li > a, .rd-navbar-transparent.rd-navbar-static .rd-navbar-dropdown li > a, .rd-navbar-center.rd-navbar-static .rd-navbar-dropdown li > a, .rd-navbar-minimal.rd-navbar-static .rd-navbar-dropdown li > a, .rd-navbar-default.rd-navbar-static .rd-navbar-megamenu li > a, .rd-navbar-transparent.rd-navbar-static .rd-navbar-megamenu li > a, .rd-navbar-center.rd-navbar-static .rd-navbar-megamenu li > a, .rd-navbar-minimal.rd-navbar-static .rd-navbar-megamenu li > a {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 700;
   line-height: 24px;
   text-transform: capitalize;
@@ -30795,8 +30796,8 @@ fieldset[disabled] .swiper-slide-caption .btn-default {
 .rd-navbar-default.rd-navbar-static .rd-navbar-nav > li, .rd-navbar-transparent.rd-navbar-static .rd-navbar-nav > li, .rd-navbar-center.rd-navbar-static .rd-navbar-nav > li, .rd-navbar-minimal.rd-navbar-static .rd-navbar-nav > li {
   float: left;
   position: relative;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
   border-right: 1px solid rgba(255, 255, 255, 0.2);
 }
 
@@ -30805,7 +30806,7 @@ fieldset[disabled] .swiper-slide-caption .btn-default {
   display: inline-block;
   vertical-align: middle;
   color: #fff;
-  font-family: "Montserrat", cursive;
+  font-family: "Hind", Helvetica, Arial, sans-serif;
 }
 
 .rd-navbar-default.rd-navbar-static .rd-navbar-nav > li > a:before, .rd-navbar-transparent.rd-navbar-static .rd-navbar-nav > li > a:before, .rd-navbar-center.rd-navbar-static .rd-navbar-nav > li > a:before, .rd-navbar-minimal.rd-navbar-static .rd-navbar-nav > li > a:before {
@@ -31295,7 +31296,8 @@ fieldset[disabled] .swiper-slide-caption .btn-default {
   height: 100%;
   width: 10000px;
   left: -100px;
-  background: #172646;
+  /*background: #172646;*/
+  background: #333;
   transition: 0.35s all ease;
   z-index: -1;
 }
@@ -31354,9 +31356,21 @@ fieldset[disabled] .swiper-slide-caption .btn-default {
 }
 
 .rd-navbar-default.rd-navbar-static.rd-navbar--is-stuck .rd-navbar-menu-wrap:before {
-  left: -100%;
+  /*left: -100%;*/
+  left: 10%;
 }
 
+.rd-navbar-default.rd-navbar-static.rd-navbar--is-stuck .rd-navbar-menu-wrap:after {
+  position: absolute;
+    content: "";
+    height: 100%;
+    width: 10000px;
+    right: calc(80% + 20px);
+    background: #3db7ef;
+    transform: skew(-36deg);
+    z-index: 9999;
+    margin-top: -52px;
+}
 .rd-navbar-default.rd-navbar-static.rd-navbar--is-stuck .shell {
   height: 0;
   padding-top: 0;
@@ -39251,7 +39265,7 @@ a.pswp__share--download:hover {
   font-weight: 700;
   color: #000000;
   text-align: left;
-  font-family: "Montserrat", cursive;
+  font-family: "Hind", Helvetica, Arial, sans-serif;
   text-overflow: ellipsis;
   transition: all .35s ease;
   background: #f9f9f9;
