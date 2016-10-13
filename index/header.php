@@ -17,7 +17,7 @@
                     <div class="cell-md-3 left-side">
                       <div class="clearfix text-lg-left text-center">
                         <!--Navbar Brand-->
-                        <div class="rd-navbar-brand"><a href="index.html"><img width='165' height='76' src='images/logo.png' alt=''/></a></div>
+                        <div class="rd-navbar-brand"><a href="index.html"><img width='165' height='76' src='images/logo.png' alt='' style="visibility: hidden;" /></a></div>
                       </div>
                     </div>
                     <div class="cell-md-9 text-md-right right-side">
