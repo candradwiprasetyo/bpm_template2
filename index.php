@@ -35,7 +35,14 @@ include 'libraries/config.php';
         
       <?php
       include 'index/slider.php';
+
+      include 'index/kinerja_investasi.php';
+
+      include 'index/profile.php';
       ?>
+
+
+
         <!-- Classic Thumbnail-->
         <section class="section-80 section-lg-top-90 section-lg-bottom-120">
           <div class="shell text-sm-left">
@@ -130,79 +137,8 @@ include 'libraries/config.php';
             </div>
           </div>
         </section>
-        <!-- Our Mission-->
-        <section class="bg-lightest section-skew">
-          <div class="skew-block"></div>
-          <div class="shell text-sm-left">
-            <div class="range range-xs-center range-lg-right offset-top-0">
-              <div class="cell-xs-10 cell-sm-12 cell-lg-8 section-image-aside section-image-aside-left">
-                <div style="background-image: url(images/home-01-746-561.jpg)" class="section-image-aside-img veil reveal-lg-block"></div>
-                <div class="section-image-aside-body section-80 offset-lg-top-0 section-lg-90 inset-lg-left-100">
-                  <h2>Our Mission:</h2>
-                  <hr class="divider divider-lg bg-primary hr-sm-left-0">
-                  <div class="offset-top-20 offset-lg-top-50">
-                    <p>Transitec Transportation Company is committed to providing efficient and reliable services across all its business segments to its valued customers where safety is our top priority. Transitec will commit its resources to safe and environmentally sound operating practices.</p>
-                    <p>That will result in providing our employees with a safe work environment and our customers with the assurance of safe, dependable service. We aim to be recognized among current and prospective shipper clients as a premier provider of logistics and transportation services, to be the leader in the transportation management industry.</p>
-                  </div>
-                  <div class="offset-top-20"><a href="about-us.html" class="btn btn-primary btn-sm">learn more</a></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <!-- Classic Thumbnail-->
-        <!-- Latest news-->
-        <section class="section-80 section-md-bottom-120">
-          <div class="shell text-md-left">
-            <h2>latest news</h2>
-            <hr class="divider divider-lg bg-primary hr-md-left-0">
-            <div class="range text-md-left offset-top-50 range-xs-center">
-              <div class="cell-sm-8 cell-md-4">
-                <article class="post-news"><a class="thumbnail-default" href="blog-post-page.html" target="_self">
-                            <figure><img width="370" height="270" src="images/news-01-370x270.jpg" alt="" class="img-responsive"></figure><span class="icon icon-xxs fa-link"></span></a>
-                  <div class="offset-top-10">
-                    <h5 class="text-primary text-bold"><a href="blog-post-page.html" class="post-news-title">Improving on Strategic Sourcing</a></h5>
-                  </div>
-                  <div class="offset-top-15">
-                    <div class="post-meta"><span class="icon icon-xxs fa-calendar text-gray text-middle"></span>
-                      <time datetime="2016-01-01" class="text-gray inset-left-5 text-middle">26 January 2016, 15:34</time>
-                    </div>
-                  </div>
-                  <p>There is an organizational expectation that transportation modes will be sourced and cost will be taken out of the network with some regularity.</p>
-                </article>
-              </div>
-              <div class="cell-sm-8 cell-md-4 offset-top-50 offset-md-top-0">
-                <article class="post-news"><a class="thumbnail-default" href="blog-post-page.html" target="_self">
-                            <figure><img width="370" height="270" src="images/news-02-370x270.jpg" alt="" class="img-responsive"></figure><span class="icon icon-xxs fa-link"></span></a>
-                  <div class="offset-top-10">
-                    <h5 class="text-primary text-bold"><a href="blog-post-page.html" class="post-news-title">How Transportation and Procurement Can Improve Spend</a></h5>
-                  </div>
-                  <div class="offset-top-15">
-                    <div class="post-meta"><span class="icon icon-xxs fa-calendar text-gray text-middle"></span>
-                      <time datetime="2016-01-01" class="text-gray inset-left-5 text-middle">26 January 2016, 15:34</time>
-                    </div>
-                  </div>
-                  <p>Negotiating truckload rates has always been a key element to transportation relationships and budgeting — and it always will be.</p>
-                </article>
-              </div>
-              <div class="cell-sm-8 cell-md-4 offset-top-50 offset-md-top-0">
-                <article class="post-news"><a class="thumbnail-default" href="blog-post-page.html" target="_self">
-                            <figure><img width="370" height="270" src="images/news-03-370x270.jpg" alt="" class="img-responsive"></figure><span class="icon icon-xxs fa-link"></span></a>
-                  <div class="offset-top-10">
-                    <h5 class="text-primary text-bold"><a href="blog-post-page.html" class="post-news-title">Predictive Analytics Comes to the Logistics Industry</a></h5>
-                  </div>
-                  <div class="offset-top-15">
-                    <div class="post-meta"><span class="icon icon-xxs fa-calendar text-gray text-middle"></span>
-                      <time datetime="2016-01-01" class="text-gray inset-left-5 text-middle">26 January 2016, 15:34</time>
-                    </div>
-                  </div>
-                  <p>I’m not sure we have a good understanding in the field of how predictive analytics differs from forecasting.</p>
-                </article>
-              </div>
-            </div>
-            <div class="offset-top-50"><a href="blog-archive.html" class="btn btn-primary btn-sm">view all news</a></div>
-          </div>
-        </section>
+        
+        
         <!-- Testimonials-->
         <section class="section-80 section-md-top-65 section-md-bottom-100 bg-dark-blue context-dark section-skew section-skew-wide">
           <div class="skew-block"></div>

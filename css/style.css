@@ -1508,7 +1508,7 @@ html {
 
 body {
   font-family: "Hind", Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 1.5;
   color: #666;
   background-color: #000000;
@@ -10245,16 +10245,20 @@ h2,
 .h2 {
   margin-top: 32px;
   margin-bottom: 21px;
-  font-size: 32px;
+  font-size: 20px;
   line-height: 1.33333;
   text-transform: uppercase;
   letter-spacing: 0.04em;
 }
 
+h2 span{
+  font-weight: normal;
+}
+
 @media (min-width: 768px) {
   h2,
   .h2 {
-    font-size: 36px;
+    font-size: 20px;
   }
 }
 
@@ -10297,7 +10301,7 @@ h5,
 .h5 {
   margin-top: 12px;
   margin-bottom: 12px;
-  font-size: 24px;
+  font-size: 14px;
   line-height: 1.5;
 }
 
@@ -10312,7 +10316,7 @@ h5 .icon + *,
   h5,
   .h5 {
     line-height: 1.4;
-    font-size: 20px;
+    font-size: 14px;
   }
 }
 
@@ -30886,6 +30890,7 @@ fieldset[disabled] .swiper-slide-caption .btn-default {
   opacity: 0;
   box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.15);
   background: #fff;
+  border-left: 5px solid #3DB7EF;
 }
 
 .rd-navbar-default.rd-navbar-static .rd-navbar-dropdown .rd-navbar-dropdown, .rd-navbar-transparent.rd-navbar-static .rd-navbar-dropdown .rd-navbar-dropdown, .rd-navbar-center.rd-navbar-static .rd-navbar-dropdown .rd-navbar-dropdown, .rd-navbar-minimal.rd-navbar-static .rd-navbar-dropdown .rd-navbar-dropdown, .rd-navbar-default.rd-navbar-static .rd-navbar-megamenu .rd-navbar-dropdown, .rd-navbar-transparent.rd-navbar-static .rd-navbar-megamenu .rd-navbar-dropdown, .rd-navbar-center.rd-navbar-static .rd-navbar-megamenu .rd-navbar-dropdown, .rd-navbar-minimal.rd-navbar-static .rd-navbar-megamenu .rd-navbar-dropdown {
