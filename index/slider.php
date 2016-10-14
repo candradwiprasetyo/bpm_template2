@@ -2,60 +2,45 @@
           <!-- Swiper-->
           <div data-height="35.5%" data-loop="true" data-dragable="false" data-min-height="480px" data-slide-effect="true" class="swiper-container swiper-slider">
             <div class="swiper-wrapper">
-              <div data-slide-bg="images/backgrounds/bg-02-1920x660.jpg" style="background-position: center center" class="swiper-slide">
+              <?php
+              $img = array('bg-02-1920x660.jpg', 'bg-03-1918x761.jpg', 'bg-04-1918x660.jpg');
+              $query = "SELECT * FROM slider where active_status = '1' ORDER BY date DESC LIMIT 0,3 ";
+              $excute = mysql_query($query);
+              $i = 0;
+              while ($data = mysql_fetch_array($excute)){
+              ?>
+              <div data-slide-bg="images/backgrounds/<?= $img[$i]?>" style="background-position: center center" class="swiper-slide">
                 <div class="swiper-slide-caption">
                   <div class="container">
                     <div class="range range-xs-center range-lg-left">
                       <div class="cell-lg-7 text-lg-left cell-xs-10">
                         <div data-caption-animate="fadeInUp" data-caption-delay="100">
-                          <h1><a href="about-us.html">Delivery unlimited.</a></h1>
+                          <h1><a href="about-us.html"><?php echo $data['name'] ?></a></h1>
                         </div>
                         <div data-caption-animate="fadeInUp" data-caption-delay="150" class="offset-top-30">
-                          <h4 class="font-default text-light text-spacing-20 veil reveal-sm-block">We help people save time, make their life better, exercising communications, both in business and in private life.</h4>
+                          <h4 class="font-default text-light text-spacing-20 veil reveal-sm-block">
+                            <?php
+                            $a = explode(" ", $data['description']);
+                                        for($c=0; $c<=12; $c++){
+                                          if(isset( $a[$c])){
+                                            echo $a[$c]." ";
+                                          }
+                                        }echo "... ";
+                            ?>
+                          </h4>
                           <h4 class="font-default text-light text-spacing-20 veil-sm">Learn more about Transitec</h4>
                         </div>
-                        <div data-caption-animate="fadeInUp" data-caption-delay="200" class="offset-top-20"><a href="about-us.html" class="btn btn-default btn-sm veil reveal-lg-inline-block">learn more</a><a href="#" data-custom-toggle="quote-form" class="btn btn-primary btn-sm veil-lg">Request a Quote</a></div>
+                        <div data-caption-animate="fadeInUp" data-caption-delay="200" class="offset-top-20"><a href="about-us.html" class="btn btn-default btn-sm veil reveal-lg-inline-block">View</a><a href="#" data-custom-toggle="quote-form" class="btn btn-primary btn-sm veil-lg">Request a Quote</a></div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div data-slide-bg="images/backgrounds/bg-03-1918x761.jpg" style="background-position: center center" class="swiper-slide">
-                <div class="swiper-slide-caption">
-                  <div class="container">
-                    <div class="range range-xs-center range-lg-left">
-                      <div class="cell-lg-7 text-lg-left cell-xs-10">
-                        <div data-caption-animate="fadeInUp" data-caption-delay="100">
-                          <h1><a href="about-us.html">A partnership based on trust.</a></h1>
-                        </div>
-                        <div data-caption-animate="fadeInUp" data-caption-delay="150" class="offset-top-30">
-                          <h4 class="font-default text-light text-spacing-20 veil reveal-sm-block">We strive to ensure that our services have become a benchmark of quality in the field of the delivery.</h4>
-                          <h4 class="font-default text-light text-spacing-20 veil-sm">Learn more about Transitec</h4>
-                        </div>
-                        <div data-caption-animate="fadeInUp" data-caption-delay="200" class="offset-top-20"><a href="about-us.html" class="btn btn-default btn-sm veil reveal-lg-inline-block">learn more</a><a href="#" data-custom-toggle="quote-form" class="btn btn-primary btn-sm veil-lg">Request a Quote</a></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div data-slide-bg="images/backgrounds/bg-04-1918x660.jpg" style="background-position: center center" class="swiper-slide">
-                <div class="swiper-slide-caption">
-                  <div class="container">
-                    <div class="range range-xs-center range-lg-left">
-                      <div class="cell-lg-7 text-lg-left cell-xs-10">
-                        <div data-caption-animate="fadeInUp" data-caption-delay="200">
-                          <h1><a href="about-us.html">Comfortable Payment System.</a></h1>
-                        </div>
-                        <div data-caption-animate="fadeInUp" data-caption-delay="300" class="offset-top-30">
-                          <h4 class="font-default text-light text-spacing-20 veil reveal-sm-block">Payment for services is made by credit or advanced system. A form of payment is in the discretion of the customer.</h4>
-                          <h4 class="font-default text-light text-spacing-20 veil-sm">Learn more about Transitec</h4>
-                        </div>
-                        <div data-caption-animate="fadeInUp" data-caption-delay="500" class="offset-top-20"><a href="about-us.html" class="btn btn-default btn-sm veil reveal-lg-inline-block"> learn more</a><a href="#" data-custom-toggle="quote-form" class="btn btn-primary btn-sm veil-lg">Request a Quote</a></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              <?php
+              $i++;
+              }
+              ?>
+              
             </div>
             <!-- Swiper Pagination-->
             <div class="swiper-pagination"></div>

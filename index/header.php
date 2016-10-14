@@ -22,9 +22,9 @@
                     </div>
                     <div class="cell-md-9 text-md-right right-side">
                       <ul class="offset-lg-top-15 list-unstyled">
-                        <li class="reveal-md-inline-block"><span class="icon icon-xxs fa-envelope-o text-middle icon-primary"></span><a href="mailto:#" class="inset-left-10 text-middle">info@demolink.org</a></li>
-                        <li class="reveal-md-inline-block"><span class="icon icon-xxs fa-clock-o text-middle icon-primary"></span><span class="inset-left-10 text-middle">Mon–Sat: 7:00–19:00</span></li>
-                        <li class="reveal-md-inline-block"><span class="icon icon-xxs fa-phone text-middle icon-primary"></span><a href="callto:#" class="inset-left-10 text-middle">1-800-1234-567</a></li>
+                        <li class="reveal-md-inline-block"><span class="icon icon-xxs fa-envelope-o text-middle icon-primary"></span><a href="mailto:#" class="inset-left-10 text-middle">invest@bpm.jatimprov.go.id</a></li>
+                        <li class="reveal-md-inline-block"><span class="icon icon-xxs fa-clock-o text-middle icon-primary"></span><span class="inset-left-10 text-middle">Senin - Jumat : 9:00–17:00</span></li>
+                        <li class="reveal-md-inline-block"><span class="icon icon-xxs fa-phone text-middle icon-primary"></span><a href="callto:#" class="inset-left-10 text-middle">031-3537537</a></li>
                       </ul>
                     </div>
                   </div>
